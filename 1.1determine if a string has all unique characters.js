@@ -1,5 +1,5 @@
 function checkUnique(str){
-	if(str.lengh == 1)
+	if(str.lengh <= 1)
 		return true;
 	// If it is ASCII 8bits when str.length > 256, there is definitely a duplicate too. UTC 16 bits.
 	var hashtable = new Object(); // Or just {}
